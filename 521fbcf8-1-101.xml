@@ -1,0 +1,195 @@
+    <get_reports_response status_text="OK" status="200">
+      <report id="6f6c925a-2919-406b-95d9-f7d5e62e7466" format_id="a994b278-1f62-11e1-96ac-406186ea4fc5" extension="xml" type="scan" content_type="text/xml">
+        <owner>
+          <name></name>
+        </owner>
+        <name>2018-04-03T06:04:42Z</name>
+        <comment></comment>
+        <creation_time>2018-04-03T06:04:42Z</creation_time>
+        <modification_time>2018-04-03T06:04:55Z</modification_time>
+        <writable>0</writable>
+        <in_use>0</in_use>
+        <task id="776122b8-2d40-4d1f-9d0d-9b4f816bd180">
+          <name>521fbcf8-1-10-1</name>
+        </task>
+        <report_format id="a994b278-1f62-11e1-96ac-406186ea4fc5">
+          <name>XML</name>
+        </report_format>
+        <report id="6f6c925a-2919-406b-95d9-f7d5e62e7466">
+          <omp>
+            <version>6.0</version>
+          </omp>
+          <report_format></report_format>
+          <sort>
+            <field>type
+              <order>descending</order>
+            </field>
+          </sort>
+          <filters id="0">hmlgd
+            <term>sort-reverse=id result_hosts_only=1 min_cvss_base= min_qod= levels=hmlgd autofp=0 notes=0 overrides=0 first=1 rows=-1 delta_states=cgns</term>
+            <phrase></phrase>
+            <autofp>0</autofp>
+            <notes>0</notes>
+            <overrides>0</overrides>
+            <apply_overrides>0</apply_overrides>
+            <result_hosts_only>1</result_hosts_only>
+            <min_cvss_base></min_cvss_base>
+            <min_qod></min_qod>
+            <timezone></timezone>
+            <filter>High</filter>
+            <filter>Medium</filter>
+            <filter>Low</filter>
+            <filter>Log</filter>
+            <filter>Debug</filter>
+          </filters>
+          <severity_class id="d4c74cda-89e1-11e3-9c29-406186ea4fc5">
+            <name>nist</name>
+            <full_name>NVD Vulnerability Severity Ratings</full_name>
+            <severity_range>
+              <name>None</name>
+              <min>0.0</min>
+              <max>0.0</max>
+            </severity_range>
+            <severity_range>
+              <name>Low</name>
+              <min>0.1</min>
+              <max>3.9</max>
+            </severity_range>
+            <severity_range>
+              <name>Medium</name>
+              <min>4.0</min>
+              <max>6.9</max>
+            </severity_range>
+            <severity_range>
+              <name>High</name>
+              <min>7.0</min>
+              <max>10.0</max>
+            </severity_range>
+          </severity_class>
+          <user_tags>
+            <count>0</count>
+          </user_tags>
+          <scan_run_status>Done</scan_run_status>
+          <hosts>
+            <count>1</count>
+          </hosts>
+          <closed_cves>
+            <count>0</count>
+          </closed_cves>
+          <vulns>
+            <count>0</count>
+          </vulns>
+          <os>
+            <count>0</count>
+          </os>
+          <apps>
+            <count>0</count>
+          </apps>
+          <ssl_certs>
+            <count>0</count>
+          </ssl_certs>
+          <task id="776122b8-2d40-4d1f-9d0d-9b4f816bd180">
+            <name>521fbcf8-1-10-1</name>
+            <comment></comment>
+            <target id="ad64d3b2-2189-41b3-8320-839491418878">
+              <trash>0</trash>
+            </target>
+            <progress>-1</progress>
+            <user_tags>
+              <count>0</count>
+            </user_tags>
+          </task>
+          <scan>
+            <task>
+              <slave id="">
+                <name></name>
+                <host></host>
+                <port>0</port>
+              </slave>
+              <preferences>
+                <preference>
+                  <name>Network Source Interface</name>
+                  <scanner_name>source_iface</scanner_name>
+                  <value></value>
+                </preference>
+              </preferences>
+            </task>
+          </scan>
+          <timestamp>2018-04-03T06:04:39Z</timestamp>
+          <scan_start>2018-04-03T06:04:42Z</scan_start>
+          <timezone>Coordinated Universal Time</timezone>
+          <timezone_abbrev>UTC</timezone_abbrev>
+          <ports max="-1" start="1">
+            <count>0</count>
+          </ports>
+          <results max="-1" start="1"></results>
+          <result_count>0
+            <full>0</full>
+            <filtered>0</filtered>
+            <debug>
+              <full>0</full>
+              <filtered>0</filtered>
+            </debug>
+            <hole>
+              <full>0</full>
+              <filtered>0</filtered>
+            </hole>
+            <info>
+              <full>0</full>
+              <filtered>0</filtered>
+            </info>
+            <log>
+              <full>0</full>
+              <filtered>0</filtered>
+            </log>
+            <warning>
+              <full>0</full>
+              <filtered>0</filtered>
+            </warning>
+            <false_positive>
+              <full>0</full>
+              <filtered>0</filtered>
+            </false_positive>
+          </result_count>
+          <severity>
+            <full>-99.0</full>
+            <filtered>-99.0</filtered>
+          </severity>
+          <scan_end>2018-04-03T06:04:55Z</scan_end>
+          <errors>
+            <count>0</count>
+          </errors>
+        </report>
+      </report>
+      <filters id="">
+        <term>first=1 rows=-1 sort=name</term>
+        <keywords>
+          <keyword>
+            <column>first</column>
+            <relation>=</relation>
+            <value>1</value>
+          </keyword>
+          <keyword>
+            <column>rows</column>
+            <relation>=</relation>
+            <value>-1</value>
+          </keyword>
+          <keyword>
+            <column>sort</column>
+            <relation>=</relation>
+            <value>name</value>
+          </keyword>
+        </keywords>
+      </filters>
+      <sort>
+        <field>name
+          <order>ascending</order>
+        </field>
+      </sort>
+      <reports max="-1" start="1"></reports>
+      <report_count>51
+        <filtered>1</filtered>
+        <page>1</page>
+      </report_count>
+    </get_reports_response>
+

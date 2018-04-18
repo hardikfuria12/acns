@@ -1,0 +1,276 @@
+    <get_reports_response status_text="OK" status="200">
+      <report id="f2f8bde3-f96b-40c8-835d-6ce2be4a9b8e" format_id="a994b278-1f62-11e1-96ac-406186ea4fc5" extension="xml" type="scan" content_type="text/xml">
+        <owner>
+          <name></name>
+        </owner>
+        <name>2018-04-03T06:00:28Z</name>
+        <comment></comment>
+        <creation_time>2018-04-03T06:00:28Z</creation_time>
+        <modification_time>2018-04-03T06:00:43Z</modification_time>
+        <writable>0</writable>
+        <in_use>0</in_use>
+        <task id="a53b1093-1f67-482e-b66f-4167305aaa7c">
+          <name>521fbcf68-1-5-0</name>
+        </task>
+        <report_format id="a994b278-1f62-11e1-96ac-406186ea4fc5">
+          <name>XML</name>
+        </report_format>
+        <report id="f2f8bde3-f96b-40c8-835d-6ce2be4a9b8e">
+          <omp>
+            <version>6.0</version>
+          </omp>
+          <report_format></report_format>
+          <sort>
+            <field>type
+              <order>descending</order>
+            </field>
+          </sort>
+          <filters id="0">hmlgd
+            <term>sort-reverse=id result_hosts_only=1 min_cvss_base= min_qod= levels=hmlgd autofp=0 notes=0 overrides=0 first=1 rows=-1 delta_states=cgns</term>
+            <phrase></phrase>
+            <autofp>0</autofp>
+            <notes>0</notes>
+            <overrides>0</overrides>
+            <apply_overrides>0</apply_overrides>
+            <result_hosts_only>1</result_hosts_only>
+            <min_cvss_base></min_cvss_base>
+            <min_qod></min_qod>
+            <timezone></timezone>
+            <filter>High</filter>
+            <filter>Medium</filter>
+            <filter>Low</filter>
+            <filter>Log</filter>
+            <filter>Debug</filter>
+          </filters>
+          <severity_class id="d4c74cda-89e1-11e3-9c29-406186ea4fc5">
+            <name>nist</name>
+            <full_name>NVD Vulnerability Severity Ratings</full_name>
+            <severity_range>
+              <name>None</name>
+              <min>0.0</min>
+              <max>0.0</max>
+            </severity_range>
+            <severity_range>
+              <name>Low</name>
+              <min>0.1</min>
+              <max>3.9</max>
+            </severity_range>
+            <severity_range>
+              <name>Medium</name>
+              <min>4.0</min>
+              <max>6.9</max>
+            </severity_range>
+            <severity_range>
+              <name>High</name>
+              <min>7.0</min>
+              <max>10.0</max>
+            </severity_range>
+          </severity_class>
+          <user_tags>
+            <count>0</count>
+          </user_tags>
+          <scan_run_status>Done</scan_run_status>
+          <hosts>
+            <count>1</count>
+          </hosts>
+          <closed_cves>
+            <count>0</count>
+          </closed_cves>
+          <vulns>
+            <count>1</count>
+          </vulns>
+          <os>
+            <count>0</count>
+          </os>
+          <apps>
+            <count>0</count>
+          </apps>
+          <ssl_certs>
+            <count>0</count>
+          </ssl_certs>
+          <task id="a53b1093-1f67-482e-b66f-4167305aaa7c">
+            <name>521fbcf68-1-5-0</name>
+            <comment></comment>
+            <target id="1609bd56-23d7-4df9-adb8-58e3621b36e8">
+              <trash>0</trash>
+            </target>
+            <progress>-1</progress>
+            <user_tags>
+              <count>0</count>
+            </user_tags>
+          </task>
+          <scan>
+            <task>
+              <slave id="">
+                <name></name>
+                <host></host>
+                <port>0</port>
+              </slave>
+              <preferences>
+                <preference>
+                  <name>Network Source Interface</name>
+                  <scanner_name>source_iface</scanner_name>
+                  <value></value>
+                </preference>
+              </preferences>
+            </task>
+          </scan>
+          <timestamp>2018-04-03T06:00:24Z</timestamp>
+          <scan_start>2018-04-03T06:00:28Z</scan_start>
+          <timezone>Coordinated Universal Time</timezone>
+          <timezone_abbrev>UTC</timezone_abbrev>
+          <ports max="-1" start="1">
+            <count>0</count>
+            <port>general/tcp
+              <host>192.168.1.5</host>
+              <severity>0.0</severity>
+              <threat>Log</threat>
+            </port>
+          </ports>
+          <results max="-1" start="1">
+            <result id="20a683f2-5e91-43ab-8d2b-755e2dab109e">
+              <name>Ping Host</name>
+              <owner>
+                <name>admin</name>
+              </owner>
+              <comment></comment>
+              <creation_time>2018-04-03T06:00:43Z</creation_time>
+              <modification_time>2018-04-03T06:00:43Z</modification_time>
+              <user_tags>
+                <count>0</count>
+              </user_tags>
+              <host>192.168.1.5</host>
+              <port>general/tcp</port>
+              <nvt oid="1.3.6.1.4.1.25623.1.0.100315">
+                <name>Ping Host</name>
+                <family>Port scanners</family>
+                <cvss_base>0.0</cvss_base>
+                <cve>NOCVE</cve>
+                <bid>NOBID</bid>
+                <xref>NOXREF</xref>
+                <tags>cvss_base_vector=AV:N/AC:L/Au:N/C:N/I:N/A:N|summary=This check tries to determine whether a remote host is up (alive).
+
+  Several methods are used for this depending on configuration of this check.|insight=Whether a host is up can be detected in 3 different ways:
+
+  - A ICMP message is sent to the host and a response is taken as alive sign.
+
+  - An ARP request is sent and a response is taken as alive sign.
+
+  - A number of typical TCP services (namely the 20 top ports of nmap)
+  are tried and their presence is taken as alive sign.
+
+  None of the methods is failsafe. It depends on network and/or host configurations
+  whether they succeed or not. Both, false positives and false negatives can occur.
+  Therefore the methods are configurable.
+
+  If you select to not mark unreachable hosts as dead, no alive detections are
+  executed and the host is assumed to be available for scanning.
+
+  In case it is configured that hosts are never marked as dead, this can cause
+  considerable timeouts and therefore a long scan duration in case the hosts
+  are in fact not available.
+
+  The available methods might fail for the following reasons:
+
+  - ICMP: This might be disabled for a environment and would then cause false
+  negatives as hosts are believed to be dead that actually are alive. In constrast
+  it is also possible that a Firewall between the scanner and the target host is answering
+  to the ICMP message and thus hosts are believed to be alive that actually are dead.
+
+  - TCP ping: Similar to the ICMP case a Firewall between the scanner and the target might
+  answer to the sent probes and thus hosts are believed to be alive that actually are dead.|qod_type=remote_banner</tags>
+                <cert>
+                  <warning>database not available</warning>
+                </cert>
+              </nvt>
+              <scan_nvt_version>$Revision: 9006 $</scan_nvt_version>
+              <threat>Log</threat>
+              <severity>0.0</severity>
+              <qod>
+                <value>80</value>
+                <type>remote_banner</type>
+              </qod>
+              <description>The remote host 192.168.1.5 was considered as dead.</description>
+            </result>
+          </results>
+          <result_count>1
+            <full>1</full>
+            <filtered>1</filtered>
+            <debug>
+              <full>0</full>
+              <filtered>0</filtered>
+            </debug>
+            <hole>
+              <full>0</full>
+              <filtered>0</filtered>
+            </hole>
+            <info>
+              <full>0</full>
+              <filtered>0</filtered>
+            </info>
+            <log>
+              <full>1</full>
+              <filtered>1</filtered>
+            </log>
+            <warning>
+              <full>0</full>
+              <filtered>0</filtered>
+            </warning>
+            <false_positive>
+              <full>0</full>
+              <filtered>0</filtered>
+            </false_positive>
+          </result_count>
+          <severity>
+            <full>0.0</full>
+            <filtered>0.0</filtered>
+          </severity>
+          <host>
+            <ip>192.168.1.5</ip>
+            <start>2018-04-03T06:00:40Z</start>
+            <end>2018-04-03T06:00:43Z</end>
+          </host>
+          <host_start>2018-04-03T06:00:40Z
+            <host>192.168.1.5</host>
+          </host_start>
+          <host_end>2018-04-03T06:00:43Z
+            <host>192.168.1.5</host>
+          </host_end>
+          <scan_end>2018-04-03T06:00:43Z</scan_end>
+          <errors>
+            <count>0</count>
+          </errors>
+        </report>
+      </report>
+      <filters id="">
+        <term>first=1 rows=-1 sort=name</term>
+        <keywords>
+          <keyword>
+            <column>first</column>
+            <relation>=</relation>
+            <value>1</value>
+          </keyword>
+          <keyword>
+            <column>rows</column>
+            <relation>=</relation>
+            <value>-1</value>
+          </keyword>
+          <keyword>
+            <column>sort</column>
+            <relation>=</relation>
+            <value>name</value>
+          </keyword>
+        </keywords>
+      </filters>
+      <sort>
+        <field>name
+          <order>ascending</order>
+        </field>
+      </sort>
+      <reports max="-1" start="1"></reports>
+      <report_count>43
+        <filtered>1</filtered>
+        <page>1</page>
+      </report_count>
+    </get_reports_response>
+

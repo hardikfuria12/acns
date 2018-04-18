@@ -1,0 +1,286 @@
+{
+  "get_reports_response": {
+    "@status_text": "OK", 
+    "@status": "200", 
+    "report": {
+      "@id": "f2f8bde3-f96b-40c8-835d-6ce2be4a9b8e", 
+      "@format_id": "a994b278-1f62-11e1-96ac-406186ea4fc5", 
+      "@extension": "xml", 
+      "@type": "scan", 
+      "@content_type": "text/xml", 
+      "owner": {
+        "name": null
+      }, 
+      "name": "2018-04-03T06:00:28Z", 
+      "comment": null, 
+      "creation_time": "2018-04-03T06:00:28Z", 
+      "modification_time": "2018-04-03T06:00:43Z", 
+      "writable": "0", 
+      "in_use": "0", 
+      "task": {
+        "@id": "a53b1093-1f67-482e-b66f-4167305aaa7c", 
+        "name": "521fbcf68-1-5-0"
+      }, 
+      "report_format": {
+        "@id": "a994b278-1f62-11e1-96ac-406186ea4fc5", 
+        "name": "XML"
+      }, 
+      "report": {
+        "@id": "f2f8bde3-f96b-40c8-835d-6ce2be4a9b8e", 
+        "omp": {
+          "version": "6.0"
+        }, 
+        "report_format": null, 
+        "sort": {
+          "field": {
+            "order": "descending", 
+            "#text": "type"
+          }
+        }, 
+        "filters": {
+          "@id": "0", 
+          "term": "sort-reverse=id result_hosts_only=1 min_cvss_base= min_qod= levels=hmlgd autofp=0 notes=0 overrides=0 first=1 rows=-1 delta_states=cgns", 
+          "phrase": null, 
+          "autofp": "0", 
+          "notes": "0", 
+          "overrides": "0", 
+          "apply_overrides": "0", 
+          "result_hosts_only": "1", 
+          "min_cvss_base": null, 
+          "min_qod": null, 
+          "timezone": null, 
+          "filter": [
+            "High", 
+            "Medium", 
+            "Low", 
+            "Log", 
+            "Debug"
+          ], 
+          "#text": "hmlgd"
+        }, 
+        "severity_class": {
+          "@id": "d4c74cda-89e1-11e3-9c29-406186ea4fc5", 
+          "name": "nist", 
+          "full_name": "NVD Vulnerability Severity Ratings", 
+          "severity_range": [
+            {
+              "name": "None", 
+              "min": "0.0", 
+              "max": "0.0"
+            }, 
+            {
+              "name": "Low", 
+              "min": "0.1", 
+              "max": "3.9"
+            }, 
+            {
+              "name": "Medium", 
+              "min": "4.0", 
+              "max": "6.9"
+            }, 
+            {
+              "name": "High", 
+              "min": "7.0", 
+              "max": "10.0"
+            }
+          ]
+        }, 
+        "user_tags": {
+          "count": "0"
+        }, 
+        "scan_run_status": "Done", 
+        "hosts": {
+          "count": "1"
+        }, 
+        "closed_cves": {
+          "count": "0"
+        }, 
+        "vulns": {
+          "count": "1"
+        }, 
+        "os": {
+          "count": "0"
+        }, 
+        "apps": {
+          "count": "0"
+        }, 
+        "ssl_certs": {
+          "count": "0"
+        }, 
+        "task": {
+          "@id": "a53b1093-1f67-482e-b66f-4167305aaa7c", 
+          "name": "521fbcf68-1-5-0", 
+          "comment": null, 
+          "target": {
+            "@id": "1609bd56-23d7-4df9-adb8-58e3621b36e8", 
+            "trash": "0"
+          }, 
+          "progress": "-1", 
+          "user_tags": {
+            "count": "0"
+          }
+        }, 
+        "scan": {
+          "task": {
+            "slave": {
+              "@id": "", 
+              "name": null, 
+              "host": null, 
+              "port": "0"
+            }, 
+            "preferences": {
+              "preference": {
+                "name": "Network Source Interface", 
+                "scanner_name": "source_iface", 
+                "value": null
+              }
+            }
+          }
+        }, 
+        "timestamp": "2018-04-03T06:00:24Z", 
+        "scan_start": "2018-04-03T06:00:28Z", 
+        "timezone": "Coordinated Universal Time", 
+        "timezone_abbrev": "UTC", 
+        "ports": {
+          "@max": "-1", 
+          "@start": "1", 
+          "count": "0", 
+          "port": {
+            "host": "192.168.1.5", 
+            "severity": "0.0", 
+            "threat": "Log", 
+            "#text": "general/tcp"
+          }
+        }, 
+        "results": {
+          "@max": "-1", 
+          "@start": "1", 
+          "result": {
+            "@id": "20a683f2-5e91-43ab-8d2b-755e2dab109e", 
+            "name": "Ping Host", 
+            "owner": {
+              "name": "admin"
+            }, 
+            "comment": null, 
+            "creation_time": "2018-04-03T06:00:43Z", 
+            "modification_time": "2018-04-03T06:00:43Z", 
+            "user_tags": {
+              "count": "0"
+            }, 
+            "host": "192.168.1.5", 
+            "port": "general/tcp", 
+            "nvt": {
+              "@oid": "1.3.6.1.4.1.25623.1.0.100315", 
+              "name": "Ping Host", 
+              "family": "Port scanners", 
+              "cvss_base": "0.0", 
+              "cve": "NOCVE", 
+              "bid": "NOBID", 
+              "xref": "NOXREF", 
+              "tags": "cvss_base_vector=AV:N/AC:L/Au:N/C:N/I:N/A:N|summary=This check tries to determine whether a remote host is up (alive).\n\n  Several methods are used for this depending on configuration of this check.|insight=Whether a host is up can be detected in 3 different ways:\n\n  - A ICMP message is sent to the host and a response is taken as alive sign.\n\n  - An ARP request is sent and a response is taken as alive sign.\n\n  - A number of typical TCP services (namely the 20 top ports of nmap)\n  are tried and their presence is taken as alive sign.\n\n  None of the methods is failsafe. It depends on network and/or host configurations\n  whether they succeed or not. Both, false positives and false negatives can occur.\n  Therefore the methods are configurable.\n\n  If you select to not mark unreachable hosts as dead, no alive detections are\n  executed and the host is assumed to be available for scanning.\n\n  In case it is configured that hosts are never marked as dead, this can cause\n  considerable timeouts and therefore a long scan duration in case the hosts\n  are in fact not available.\n\n  The available methods might fail for the following reasons:\n\n  - ICMP: This might be disabled for a environment and would then cause false\n  negatives as hosts are believed to be dead that actually are alive. In constrast\n  it is also possible that a Firewall between the scanner and the target host is answering\n  to the ICMP message and thus hosts are believed to be alive that actually are dead.\n\n  - TCP ping: Similar to the ICMP case a Firewall between the scanner and the target might\n  answer to the sent probes and thus hosts are believed to be alive that actually are dead.|qod_type=remote_banner", 
+              "cert": {
+                "warning": "database not available"
+              }
+            }, 
+            "scan_nvt_version": "$Revision: 9006 $", 
+            "threat": "Log", 
+            "severity": "0.0", 
+            "qod": {
+              "value": "80", 
+              "type": "remote_banner"
+            }, 
+            "description": "The remote host 192.168.1.5 was considered as dead."
+          }
+        }, 
+        "result_count": {
+          "full": "1", 
+          "filtered": "1", 
+          "debug": {
+            "full": "0", 
+            "filtered": "0"
+          }, 
+          "hole": {
+            "full": "0", 
+            "filtered": "0"
+          }, 
+          "info": {
+            "full": "0", 
+            "filtered": "0"
+          }, 
+          "log": {
+            "full": "1", 
+            "filtered": "1"
+          }, 
+          "warning": {
+            "full": "0", 
+            "filtered": "0"
+          }, 
+          "false_positive": {
+            "full": "0", 
+            "filtered": "0"
+          }, 
+          "#text": "1"
+        }, 
+        "severity": {
+          "full": "0.0", 
+          "filtered": "0.0"
+        }, 
+        "host": {
+          "ip": "192.168.1.5", 
+          "start": "2018-04-03T06:00:40Z", 
+          "end": "2018-04-03T06:00:43Z"
+        }, 
+        "host_start": {
+          "host": "192.168.1.5", 
+          "#text": "2018-04-03T06:00:40Z"
+        }, 
+        "host_end": {
+          "host": "192.168.1.5", 
+          "#text": "2018-04-03T06:00:43Z"
+        }, 
+        "scan_end": "2018-04-03T06:00:43Z", 
+        "errors": {
+          "count": "0"
+        }
+      }
+    }, 
+    "filters": {
+      "@id": "", 
+      "term": "first=1 rows=-1 sort=name", 
+      "keywords": {
+        "keyword": [
+          {
+            "column": "first", 
+            "relation": "=", 
+            "value": "1"
+          }, 
+          {
+            "column": "rows", 
+            "relation": "=", 
+            "value": "-1"
+          }, 
+          {
+            "column": "sort", 
+            "relation": "=", 
+            "value": "name"
+          }
+        ]
+      }
+    }, 
+    "sort": {
+      "field": {
+        "order": "ascending", 
+        "#text": "name"
+      }
+    }, 
+    "reports": {
+      "@max": "-1", 
+      "@start": "1"
+    }, 
+    "report_count": {
+      "filtered": "1", 
+      "page": "1", 
+      "#text": "43"
+    }
+  }
+}
