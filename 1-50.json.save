@@ -6,8 +6,7 @@
       "@id": "f2f8bde3-f96b-40c8-835d-6ce2be4a9b8e", 
       "@format_id": "a994b278-1f62-11e1-96ac-406186ea4fc5", 
       "@extension": "xml", 
-      "@type": "scan", 
-      "@content_type": "text/xml", 
+      "@type": "scan      "@content_type": "text/xml", 
       "owner": {
         "name": null
       }, 
